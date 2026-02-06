@@ -1,0 +1,262 @@
+{
+  "schema_version": "adn_taxonomy_v1",
+  "brand": {
+    "name": "GEF",
+    "country": "Colombia",
+    "market": "Colombia",
+    "urls": [
+      "https://www.gef.co/",
+      "https://www.gef.co/pages/mujer",
+      "https://www.gef.co/collections/nueva-coleccion",
+      "https://www.gef.co/collections/all",
+      "https://www.gef.co/pages/store-locator"
+    ]
+  },
+  "meta": {
+    "data_mode": "scraping_only",
+    "classification_date": "2026-02-06"
+  },
+  "dna": {
+    "essence": {
+      "archetype_primary": "explorador",
+      "archetype_secondary": "persona_corriente",
+      "creative_risk_level": "medio",
+      "novelty_tolerance": 0.55,
+      "emotional_contract": {
+        "must_generate": [
+          "comodidad",
+          "libertad",
+          "autenticidad",
+          "alegria"
+        ],
+        "must_avoid": [
+          "desconocido"
+        ]
+      },
+      "confidence": 0.72,
+      "evidence": [
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.gef.co/pages/mujer",
+          "note": "Describe: optimistas, expresar esencia; espíritu joven y libre; oferta para cada momento (exterior/interior/deportiva) + calzado y accesorios."
+        },
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.gef.co/collections/nueva-coleccion",
+          "note": "Copy: prendas y accesorios versátiles, cómodos y con estilo; vestirte como forma de expresarte con libertad; looks casuales."
+        }
+      ]
+    },
+    "audience": {
+      "gender_focus": "familiar",
+      "age_focus": "all",
+      "customer_motivation": [
+        "comodidad",
+        "tendencia",
+        "precio"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.gef.co/collections/nueva-coleccion",
+          "note": "Menú y FAQ indican oferta para mujer, hombre, niñas y niños."
+        },
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.gef.co/pages/mujer",
+          "note": "Menciona infaltables para hombre, mujer y niños."
+        }
+      ]
+    },
+    "product": {
+      "macro_category_primary": "exterior",
+      "macro_category_secondary": [
+        "interior",
+        "calzado",
+        "accesorios"
+      ],
+      "identity_categories": [
+        "tops",
+        "bottoms",
+        "denim",
+        "outerwear",
+        "knitwear"
+      ],
+      "tactical_categories": [
+        "underwear_lingerie",
+        "activewear",
+        "sleepwear",
+        "footwear",
+        "bags"
+      ],
+      "occasion_focus": [
+        "diario_casual",
+        "deporte",
+        "hogar_loungewear"
+      ],
+      "seasonality": "clima_calido",
+      "confidence": 0.83,
+      "evidence": [
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.gef.co/collections/all",
+          "note": "Listado/filtros muestran mix amplio: camisetas, jeans, buzos, chaquetas, ropa interior, pijamas, zapatos, bolsos y accesorios."
+        },
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.gef.co/pages/mujer",
+          "note": "Declara oferta: moda exterior, interior, deportiva, calzado y accesorios; menciona jeans, joggers, chaquetas, camisas y vestidos."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.gef.co/products/747582-000799",
+          "note": "Ejemplo de outerwear: chaqueta rompevientos (regular) y composición de material."
+        }
+      ]
+    },
+    "style": {
+      "style_primary": "contemporaneo",
+      "style_secondary": [
+        "streetwear",
+        "athleisure",
+        "workwear"
+      ],
+      "fit_preference": "mixed",
+      "silhouette_signatures": [
+        "cropped",
+        "straight",
+        "high_waist",
+        "boxy",
+        "flared"
+      ],
+      "color_palette_stable": [
+        "neutros",
+        "tierra",
+        "oscuros"
+      ],
+      "print_intensity": "medium",
+      "branding_visibility": "sutil",
+      "material_focus": [
+        "algodon",
+        "denim",
+        "sinteticos",
+        "tecnicos",
+        "mezcla"
+      ],
+      "complexity_level": "media",
+      "confidence": 0.73,
+      "evidence": [
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.gef.co/collections/ver-todo",
+          "note": "Copy: 'estilo urbano', comodidad, versatilidad y últimas tendencias; esencia joven y vibrante."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.gef.co/products/746910-040191",
+          "note": "Ejemplo de fit/silueta: Regular Fit (recta), camisa casual; referencia de patrones como rayas/cuadros."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.gef.co/products/743483-000799",
+          "note": "Ejemplo athleisure: legging tiro alto; tejido seamless; materiales sintéticos (poliamida/elastano)."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.gef.co/products/747582-000799",
+          "note": "Ejemplo outdoor/utility: chaqueta rompevientos; composición 100% poliamida."
+        }
+      ]
+    },
+    "positioning": {
+      "price_segment": "masivo",
+      "value_driver": [
+        "precio",
+        "comodidad"
+      ],
+      "decision_type": "impulso",
+      "elasticity": "alta",
+      "promo_dependency": "alta",
+      "competitive_posture": "precio",
+      "price_zone": {
+        "currency": "COP",
+        "p25": 59990,
+        "p50": 129990,
+        "p75": 199990
+      },
+      "confidence": 0.80,
+      "evidence": [
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.gef.co/",
+          "note": "Homepage muestra precios de referencia en prendas y accesorios (p.ej. camisetas 64.990, polos 169.990, zapatos 199.990)."
+        },
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.gef.co/collections/blazers",
+          "note": "Rango alto en blazers (p.ej. 299.990–319.990)."
+        },
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.gef.co/collections/hot-deals",
+          "note": "Evidencia de descuentos frecuentes y altos (múltiples % OFF y precios rebajados)."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.gef.co/products/747582-000799",
+          "note": "Ejemplo de pricing medio: chaqueta 179.990."
+        }
+      ]
+    },
+    "operations": {
+      "business_model": "dtc",
+      "channels": [
+        "ecommerce_propietario",
+        "tiendas_propias"
+      ],
+      "geography": "local",
+      "manufacturing": "mixto",
+      "confidence": 0.86,
+      "evidence": [
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.gef.co/pages/store-locator",
+          "note": "Localizador de tiendas (evidencia de presencia física) + navegación por categorías."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.gef.co/products/746910-040191",
+          "note": "País de origen variable (Colombia, China, Bangladesh, India o Taiwan) → manufactura/abastecimiento mixto."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.gef.co/products/747582-000799",
+          "note": "Condiciones de envío y umbral de envío gratis (operación e-commerce DTC)."
+        }
+      ]
+    },
+    "trend_behavior": {
+      "trend_adoption_type": "mid_adopter",
+      "innovation_mix_hint": {
+        "core": 0.7,
+        "evolution": 0.25,
+        "exploration": 0.05
+      },
+      "confidence": 0.66,
+      "evidence": [
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.gef.co/collections/nueva-coleccion",
+          "note": "Sección 'Tendencias' con cápsulas (p.ej. Western, Summer, Color de temporada, Conciertos) sugiere adopción de tendencias mainstream."
+        },
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.gef.co/pages/mujer",
+          "note": "Declara prendas inspiradas en diferentes tendencias."
+        }
+      ]
+    }
+  },
+  "notes": "Clasificación basada en señales públicas del sitio (scraping_only). Algunos campos (arquetipos, branding_visibility, percentiles de price_zone e innovation_mix_hint) son inferencias aproximadas con confianza moderada."
+}

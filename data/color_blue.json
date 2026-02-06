@@ -1,0 +1,256 @@
+{
+    "schema_version": "adn_taxonomy_v1",
+    "brand": {
+        "name": "COLOR BLUE",
+        "brand_id": "colorblue",
+        "country": "Colombia",
+        "market": "Colombia",
+        "urls": [
+            "[https://www.colorblue.com/](https://www.colorblue.com/)"
+        ]
+    },
+    "meta": {
+        "data_mode": "scraping_only",
+        "classification_date": "2026-02-06"
+    },
+    "dna": {
+        "essence": {
+            "archetype_primary": "persona_corriente",
+            "creative_risk_level": "bajo",
+            "novelty_tolerance": 0.35,
+            "emotional_contract": {
+                "must_generate": [
+                    "comodidad",
+                    "seguridad",
+                    "confianza",
+                    "autenticidad"
+                ],
+                "must_avoid": [
+                    "desconocido"
+                ]
+            },
+            "confidence": 0.65,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.colorblue.com/links-interes/nuestra-marca](https://www.colorblue.com/links-interes/nuestra-marca) (L33-L43) ([colorblue.com][1])",
+                    "note": "Marca familiar/“honesta”; “estilo muy nuestro”; empresa colombiana."
+                },
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://colorblueb2b.com.co/](https://colorblueb2b.com.co/) (L62-L69) ([Color blue][2])",
+                    "note": "Declaración explícita: “ser auténticos y no una réplica”."
+                },
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.colorblue.com/infaltables](https://www.colorblue.com/infaltables) (L286-L292) ([colorblue.com][3])",
+                    "note": "Enfoque en básicos atemporales, cómodos y auténticos; “Acá no hay excesos”."
+                }
+            ]
+        },
+        "audience": {
+            "gender_focus": "unisex",
+            "age_focus": "young_adult",
+            "customer_motivation": [
+                "identidad",
+                "comodidad",
+                "calidad"
+            ],
+            "confidence": 0.85,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.colorblue.com/links-interes/nuestra-marca](https://www.colorblue.com/links-interes/nuestra-marca) (L33) ([colorblue.com][1])",
+                    "note": "“Nuestra marca está hecha para ambos géneros”."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.colorblue.com/mujer](https://www.colorblue.com/mujer) (L288-L294) ([colorblue.com][4])",
+                    "note": "Comunicación y catálogo dirigido a mujer; énfasis en comodidad/seguridad/estilo diario."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.colorblue.com/hombre](https://www.colorblue.com/hombre) (L284-L289) ([colorblue.com][5])",
+                    "note": "Comunicación y catálogo dirigido a hombre; looks modernos/urbanos/relajados."
+                }
+            ]
+        },
+        "product": {
+            "macro_category_primary": "exterior",
+            "macro_category_secondary": [
+                "interior",
+                "accesorios",
+                "bolsos"
+            ],
+            "identity_categories": [
+                "denim",
+                "bottoms",
+                "tops",
+                "outerwear",
+                "knitwear"
+            ],
+            "tactical_categories": [
+                "dresses",
+                "bags",
+                "accessories",
+                "underwear_lingerie",
+                "swimwear"
+            ],
+            "occasion_focus": [
+                "diario_casual"
+            ],
+            "seasonality": "transicional",
+            "confidence": 0.85,
+            "evidence": [
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.colorblue.com/](https://www.colorblue.com/) (L20-L48) ([colorblue.com][6])",
+                    "note": "Navegación principal: mujer/hombre y categorías (camisetas, jeans, camisas, vestidos/kimonos, chaquetas/chalecos, faldas/shorts)."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.colorblue.com/mujer](https://www.colorblue.com/mujer) (L288-L292) ([colorblue.com][4])",
+                    "note": "Mujer: jeans, chaquetas, buzos, camisetas, pantalones como pilares del catálogo."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.colorblue.com/hombre](https://www.colorblue.com/hombre) (L286-L289) ([colorblue.com][5])",
+                    "note": "Hombre: jeans, buzos, chaquetas, camisetas, pantalones como pilares del catálogo."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://colorblueb2b.com.co/](https://colorblueb2b.com.co/) (L24-L46) ([Color blue][2])",
+                    "note": "Menú incluye “DENIM” y “Bermudas - Pantalonetas de Baño” (swimwear) en hombre."
+                }
+            ]
+        },
+        "style": {
+            "style_primary": "contemporaneo",
+            "style_secondary": [
+                "streetwear",
+                "clasico"
+            ],
+            "fit_preference": "mixed",
+            "silhouette_signatures": [
+                "high_waist",
+                "low_waist",
+                "straight",
+                "layering"
+            ],
+            "color_palette_stable": [
+                "neutros",
+                "oscuros",
+                "tierra"
+            ],
+            "print_intensity": "low",
+            "branding_visibility": "desconocido",
+            "material_focus": [
+                "denim",
+                "algodon",
+                "mezcla"
+            ],
+            "complexity_level": "baja",
+            "confidence": 0.7,
+            "evidence": [
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.colorblue.com/mujer/jeans](https://www.colorblue.com/mujer/jeans) (L239-L240) ([colorblue.com][7])",
+                    "note": "Señales de silueta/fit: high/medium/low waist; mom, straight, slouchy."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.colorblue.com/mujer/chaquetas](https://www.colorblue.com/mujer/chaquetas) (L237-L240) ([colorblue.com][8])",
+                    "note": "Capa/superposición; menciona oversize y materiales/terminaciones (sherpa, acolchados) para clima."
+                },
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.colorblue.com/moda/mujer](https://www.colorblue.com/moda/mujer) (L286-L288) ([colorblue.com][9])",
+                    "note": "Se enmarca entre urbano/relajado/romántico/clásico con giro moderno."
+                },
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.colorblue.com/infaltables](https://www.colorblue.com/infaltables) (L288-L291) ([colorblue.com][3])",
+                    "note": "Atemporal/versátil y “sin excesos” (apoya baja complejidad y prints bajos)."
+                }
+            ]
+        },
+        "positioning": {
+            "price_segment": "masivo",
+            "value_driver": [
+                "calidad",
+                "precio"
+            ],
+            "decision_type": "considerada",
+            "elasticity": "alta",
+            "promo_dependency": "media",
+            "competitive_posture": "calidad",
+            "confidence": 0.75,
+            "evidence": [
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.colorblue.com/mujer](https://www.colorblue.com/mujer) (L279-L294) ([colorblue.com][4])",
+                    "note": "Rango de precios mujer ($29.950–$299.900) y claims de calidad/durabilidad."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.colorblue.com/hombre](https://www.colorblue.com/hombre) (L275-L289) ([colorblue.com][5])",
+                    "note": "Rango de precios hombre ($44.950–$199.900) y énfasis en materiales/detalles."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.colorblue.com/rebajas](https://www.colorblue.com/rebajas) (L288-L294) ([colorblue.com][10])",
+                    "note": "Existe sección de rebajas; discurso “balance perfecto entre estilo, calidad y buen precio”."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.colorblue.com/](https://www.colorblue.com/) (L0) ([colorblue.com][6])",
+                    "note": "Incentivo de compra: “Envío gratis desde $170.000”."
+                }
+            ]
+        },
+        "operations": {
+            "business_model": "dtc",
+            "channels": [
+                "ecommerce_propietario",
+                "tiendas_propias",
+                "wholesale"
+            ],
+            "geography": "local",
+            "manufacturing": "local",
+            "confidence": 0.9,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.colorblue.com/links-interes/nuestra-marca](https://www.colorblue.com/links-interes/nuestra-marca) (L35-L43) ([colorblue.com][1])",
+                    "note": "“HECHO EN COLOMBIA” y procesos hechos en Colombia."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.colorblue.com/](https://www.colorblue.com/) (L0-L8) ([colorblue.com][6])",
+                    "note": "E-commerce propio y acceso a “tiendas”; canal de WhatsApp."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://colorblueb2b.com.co/](https://colorblueb2b.com.co/) (L95-L97) ([Color blue][2])",
+                    "note": "Contacto “[coordinadorcanalmayor@colorblue.com.co](mailto:coordinadorcanalmayor@colorblue.com.co)” sugiere operación de canal mayorista."
+                }
+            ]
+        },
+        "trend_behavior": {
+            "trend_adoption_type": "selective_adopter",
+            "innovation_mix_hint": {
+                "core": 0.75,
+                "evolution": 0.2,
+                "exploration": 0.05
+            },
+            "confidence": 0.6,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.colorblue.com/moda/mujer](https://www.colorblue.com/moda/mujer) (L286-L288) ([colorblue.com][9])",
+                    "note": "Declara que seguir tendencias “no es copiar” y curan “lo más reciente” → adopción selectiva."
+                }
+            ]
+        }
+    }
+}

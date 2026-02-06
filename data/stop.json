@@ -1,0 +1,272 @@
+{
+    "schema_version": "adn_taxonomy_v1",
+    "brand": {
+        "name": "Stop Jeans",
+        "country": "Colombia",
+        "market": "Colombia",
+        "urls": [
+            "[https://www.stopjeans.com/?home-stop](https://www.stopjeans.com/?home-stop)",
+            "[https://www.stopjeans.com/](https://www.stopjeans.com/)",
+            "[https://www.stopjeans.com/collections/jeans-stop](https://www.stopjeans.com/collections/jeans-stop)",
+            "[https://www.stopjeans.com/collections/ropa-stop](https://www.stopjeans.com/collections/ropa-stop)",
+            "[https://www.stopjeans.com/collections/accesorios-y-complementos-stop](https://www.stopjeans.com/collections/accesorios-y-complementos-stop)",
+            "[https://www.stopjeans.com/pages/nuestras-tiendas](https://www.stopjeans.com/pages/nuestras-tiendas)"
+        ]
+    },
+    "meta": {
+        "data_mode": "scraping_only",
+        "classification_date": "2026-02-06"
+    },
+    "dna": {
+        "essence": {
+            "archetype_primary": "amante",
+            "archetype_secondary": "cuidador",
+            "creative_risk_level": "medio",
+            "novelty_tolerance": 0.4,
+            "emotional_contract": {
+                "must_generate": [
+                    "seguridad",
+                    "confianza",
+                    "comodidad",
+                    "sensualidad",
+                    "empoderamiento"
+                ],
+                "must_avoid": [
+                    "desconocido"
+                ]
+            },
+            "confidence": 0.75,
+            "evidence": [
+                {
+                    "source_type": "press",
+                    "reference": "[https://forbes.co/2025/09/26/actualidad/de-vuelta-al-descaderado-la-invitacion-de-stop-jeans-para-animarse-a-probarlo-de-nuevo](https://forbes.co/2025/09/26/actualidad/de-vuelta-al-descaderado-la-invitacion-de-stop-jeans-para-animarse-a-probarlo-de-nuevo)",
+                    "note": "Propósito declarado: exaltar belleza femenina y que la mujer se sienta segura con su cuerpo; relanzamiento del descaderado con nostalgia/identidad."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.stopjeans.com/collections/jeans-stop](https://www.stopjeans.com/collections/jeans-stop)",
+                    "note": "Colección principal de jeans: enfoque en comodidad, telas de alta calidad y 'horma perfecta' para la figura."
+                },
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.stopjeans.com/](https://www.stopjeans.com/)",
+                    "note": "Copy de marca: 'estilo, alegría y autenticidad', 'moda femenina', 'exclusividad', 'siéntete libre y joven'."
+                }
+            ]
+        },
+        "audience": {
+            "gender_focus": "mujer",
+            "age_focus": "all",
+            "customer_motivation": [
+                "comodidad",
+                "calidad",
+                "identidad"
+            ],
+            "confidence": 0.9,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.stopjeans.com/](https://www.stopjeans.com/)",
+                    "note": "Título y propuesta: 'Ropa y Jeans Colombianos para Mujer' y comunicación enfocada a moda femenina."
+                },
+                {
+                    "source_type": "press",
+                    "reference": "[https://forbes.co/2025/09/26/actualidad/de-vuelta-al-descaderado-la-invitacion-de-stop-jeans-para-animarse-a-probarlo-de-nuevo](https://forbes.co/2025/09/26/actualidad/de-vuelta-al-descaderado-la-invitacion-de-stop-jeans-para-animarse-a-probarlo-de-nuevo)",
+                    "note": "Campaña orientada a 'mujeres de todas las edades' y foco en seguridad corporal/beneficios para figura femenina."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.stopjeans.com/collections/jeans-stop](https://www.stopjeans.com/collections/jeans-stop)",
+                    "note": "Promesa funcional: comodidad, elasticidad y horma; motivación por fit/uso."
+                }
+            ]
+        },
+        "product": {
+            "macro_category_primary": "exterior",
+            "macro_category_secondary": [
+                "accesorios",
+                "belleza_grooming"
+            ],
+            "identity_categories": [
+                "denim",
+                "bottoms",
+                "tops"
+            ],
+            "tactical_categories": [
+                "dresses",
+                "accessories",
+                "bags",
+                "beauty"
+            ],
+            "occasion_focus": [
+                "diario_casual",
+                "trabajo",
+                "noche_fiesta"
+            ],
+            "seasonality": "transicional",
+            "confidence": 0.85,
+            "evidence": [
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.stopjeans.com/collections/jeans-stop](https://www.stopjeans.com/collections/jeans-stop)",
+                    "note": "Core: jeans (denim) como colección principal; guía de looks día/noche y uso para oficina."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.stopjeans.com/collections/ropa-stop](https://www.stopjeans.com/collections/ropa-stop)",
+                    "note": "Ropa complementaria: blusas, chaquetas, faldas, buzos; menciona 'chaquetas perfectas para el entretiempo' (transicional)."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.stopjeans.com/collections/accesorios-y-complementos-stop](https://www.stopjeans.com/collections/accesorios-y-complementos-stop)",
+                    "note": "Accesorios: correas, bolsos/billeteras, gafas y 'cuidado personal'; menciona oficina y noche de fiesta."
+                }
+            ]
+        },
+        "style": {
+            "style_primary": "contemporaneo",
+            "style_secondary": [
+                "streetwear",
+                "y2k"
+            ],
+            "fit_preference": "mixed",
+            "silhouette_signatures": [
+                "high_waist",
+                "low_waist",
+                "straight",
+                "flared",
+                "bodycon"
+            ],
+            "color_palette_stable": [
+                "neutros",
+                "oscuros",
+                "tierra"
+            ],
+            "color_palette_experimental": [
+                "vivos"
+            ],
+            "print_intensity": "medium",
+            "branding_visibility": "sutil",
+            "material_focus": [
+                "denim",
+                "algodon",
+                "mezcla",
+                "cuero",
+                "sinteticos"
+            ],
+            "complexity_level": "media",
+            "confidence": 0.7,
+            "evidence": [
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.stopjeans.com/collections/jeans-stop](https://www.stopjeans.com/collections/jeans-stop)",
+                    "note": "Menciona fits (Slim Fit, Wide Leg), tonos (denim oscuro, acid wash, colores vibrantes) y enfoque en elasticidad/forma."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.stopjeans.com/collections/nuevo-stop](https://www.stopjeans.com/collections/nuevo-stop)",
+                    "note": "Filtros muestran bota (tubo/recta/amplia/campana) y tiro (alto/medio/bajo) + siluetas (levantacola, retrojean, etc.)."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.stopjeans.com/collections/vestidos-stop](https://www.stopjeans.com/collections/vestidos-stop)",
+                    "note": "Productos con 'full print', 'a rayas' y 'lentejuelas' sugieren presencia de estampados y detalle para ocasiones."
+                },
+                {
+                    "source_type": "press",
+                    "reference": "[https://forbes.co/2025/09/26/actualidad/de-vuelta-al-descaderado-la-invitacion-de-stop-jeans-para-animarse-a-probarlo-de-nuevo](https://forbes.co/2025/09/26/actualidad/de-vuelta-al-descaderado-la-invitacion-de-stop-jeans-para-animarse-a-probarlo-de-nuevo)",
+                    "note": "Reinterpretación del low-rise con 'lectura streetwear' y énfasis en comodidad/versatilidad (ciclo Y2K/nostalgia)."
+                }
+            ]
+        },
+        "positioning": {
+            "price_segment": "medio",
+            "value_driver": [
+                "calidad",
+                "comodidad"
+            ],
+            "decision_type": "considerada",
+            "elasticity": "media",
+            "promo_dependency": "alta",
+            "competitive_posture": "diferenciacion",
+            "confidence": 0.75,
+            "evidence": [
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.stopjeans.com/collections/jeans-stop](https://www.stopjeans.com/collections/jeans-stop)",
+                    "note": "Precio de jeans observados alrededor de $169.900–$189.900 COP; promesa de calidad/fit."
+                },
+                {
+                    "source_type": "press",
+                    "reference": "[https://forbes.co/2025/09/26/actualidad/de-vuelta-al-descaderado-la-invitacion-de-stop-jeans-para-animarse-a-probarlo-de-nuevo](https://forbes.co/2025/09/26/actualidad/de-vuelta-al-descaderado-la-invitacion-de-stop-jeans-para-animarse-a-probarlo-de-nuevo)",
+                    "note": "Menciona precios desde $149.900 COP para colección; apuesta por calidad, moldería y durabilidad."
+                },
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.stopjeans.com/](https://www.stopjeans.com/)",
+                    "note": "Banner promocional visible: 'Solo por hoy 40% DCTO pagando con CrediStop o CrediYoyo' (señal de alta actividad promocional)."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.stopjeans.com/collections/accesorios-y-complementos-stop](https://www.stopjeans.com/collections/accesorios-y-complementos-stop)",
+                    "note": "Accesorios y cuidado personal amplían ticket con precios accesibles (p.ej., billeteras ~$59.900 COP)."
+                }
+            ]
+        },
+        "operations": {
+            "business_model": "dtc",
+            "channels": [
+                "ecommerce_propietario",
+                "tiendas_propias",
+                "social_commerce"
+            ],
+            "geography": "local",
+            "manufacturing": "local",
+            "confidence": 0.9,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.stopjeans.com/](https://www.stopjeans.com/)",
+                    "note": "E-commerce propio (sitio Shopify), contacto WhatsApp y opción de compra online; presencia de redes sociales enlazadas."
+                },
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.stopjeans.com/pages/nuestras-tiendas](https://www.stopjeans.com/pages/nuestras-tiendas)",
+                    "note": "Página con listado extenso de tiendas físicas en Colombia (señal fuerte de tiendas propias)."
+                },
+                {
+                    "source_type": "press",
+                    "reference": "[https://forbes.co/2025/09/26/actualidad/de-vuelta-al-descaderado-la-invitacion-de-stop-jeans-para-animarse-a-probarlo-de-nuevo](https://forbes.co/2025/09/26/actualidad/de-vuelta-al-descaderado-la-invitacion-de-stop-jeans-para-animarse-a-probarlo-de-nuevo)",
+                    "note": "Menciona producción local y apuesta por durabilidad; laboratorio/centro de pensamiento del denim para moldería y ensayos."
+                }
+            ]
+        },
+        "trend_behavior": {
+            "trend_adoption_type": "selective_adopter",
+            "innovation_mix_hint": {
+                "core": 0.7,
+                "evolution": 0.25,
+                "exploration": 0.05
+            },
+            "confidence": 0.75,
+            "evidence": [
+                {
+                    "source_type": "press",
+                    "reference": "[https://forbes.co/2025/09/26/actualidad/de-vuelta-al-descaderado-la-invitacion-de-stop-jeans-para-animarse-a-probarlo-de-nuevo](https://forbes.co/2025/09/26/actualidad/de-vuelta-al-descaderado-la-invitacion-de-stop-jeans-para-animarse-a-probarlo-de-nuevo)",
+                    "note": "Relaunch del low-rise alineado a resurgimiento global; reinterpretación con comodidad/versatilidad y lectura streetwear (adopción selectiva basada en legado)."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.stopjeans.com/collections/accesorios-y-complementos-stop](https://www.stopjeans.com/collections/accesorios-y-complementos-stop)",
+                    "note": "Copy explícito sobre 'accesorios que marcan la tendencia de la temporada' (señal de seguimiento de tendencias)."
+                },
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.stopjeans.com/](https://www.stopjeans.com/)",
+                    "note": "Copy orientado a 'combinaciones del momento' y outfits fashion (lenguaje de tendencia sin ser avant-garde)."
+                }
+            ]
+        }
+    },
+    "notes": "Clasificación basada en señales públicas del e-commerce/brand site y una fuente de prensa (Forbes). No se utilizó información interna de la compañía; cuando hay inferencia (p. ej., arquetipo, mix de innovación), la confianza se mantiene moderada."
+}

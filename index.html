@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADN Brand Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ========== TOP BAR ========== -->
+<header class="topbar">
+    <div class="topbar__left">
+        <h1 class="topbar__logo">🧬 ADN <span>Brands</span></h1>
+    </div>
+    <div class="topbar__center">
+        <nav class="view-toggle" id="viewToggle">
+            <button class="view-toggle__btn active" data-view="explorer">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="1" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="9" y="1" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="1" y="9" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="9" y="9" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5"/></svg>
+                Explorar
+            </button>
+            <button class="view-toggle__btn" data-view="compare">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M5 1v14M11 1v14M1 5h14M1 11h14" stroke="currentColor" stroke-width="1.5"/></svg>
+                Comparar
+            </button>
+            <button class="view-toggle__btn" data-view="landscape">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="5" cy="5" r="2" stroke="currentColor" stroke-width="1.5"/><circle cx="11" cy="8" r="3" stroke="currentColor" stroke-width="1.5"/><circle cx="4" cy="12" r="1.5" stroke="currentColor" stroke-width="1.5"/></svg>
+                Mapa
+            </button>
+            <button class="view-toggle__btn" data-view="insights">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="9" width="3" height="6" rx="0.5" stroke="currentColor" stroke-width="1.5"/><rect x="6.5" y="5" width="3" height="10" rx="0.5" stroke="currentColor" stroke-width="1.5"/><rect x="12" y="1" width="3" height="14" rx="0.5" stroke="currentColor" stroke-width="1.5"/></svg>
+                Insights
+            </button>
+        </nav>
+    </div>
+    <div class="topbar__right">
+        <span class="brand-counter" id="brandCounter">0 marcas</span>
+    </div>
+</header>
+
+<!-- ========== MAIN CONTENT ========== -->
+<main class="main-layout">
+
+    <!-- SIDEBAR FILTERS (Explorer) -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar__header">
+            <h2>Filtros</h2>
+            <button class="btn btn--ghost" id="resetFilters">Reset</button>
+        </div>
+        <div class="sidebar__search">
+            <input type="text" id="searchInput" placeholder="Buscar marca…" autocomplete="off">
+        </div>
+        <div class="sidebar__filters" id="filterContainer">
+            <!-- Filters rendered by JS -->
+        </div>
+        <div class="sidebar__footer">
+            <label class="toggle-label">
+                <input type="checkbox" id="hideUnknown"> Ocultar confidence &lt; 0.5
+            </label>
+        </div>
+    </aside>
+
+    <!-- VIEW: EXPLORER -->
+    <section class="view view--explorer active" id="viewExplorer">
+        <div class="card-grid" id="cardGrid">
+            <!-- Brand cards rendered by JS -->
+        </div>
+    </section>
+
+    <!-- VIEW: COMPARE -->
+    <section class="view view--compare" id="viewCompare">
+        <div class="compare-empty" id="compareEmpty">
+            <div class="compare-empty__icon">⚖️</div>
+            <h2>Selecciona marcas para comparar</h2>
+            <p>Usa el botón <strong>"+ Comparar"</strong> en cada card desde la vista Explorar.</p>
+        </div>
+        <div class="compare-content" id="compareContent" style="display:none">
+            <div class="compare-table-wrap">
+                <table class="compare-table" id="compareTable">
+                    <!-- Rendered by JS -->
+                </table>
+            </div>
+            <div class="compare-radar-wrap" id="compareRadarWrap">
+                <canvas id="radarCanvas" width="400" height="400"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIEW: LANDSCAPE -->
+    <section class="view view--landscape" id="viewLandscape">
+        <div class="landscape-controls">
+            <div class="landscape-legend" id="landscapeLegend"></div>
+        </div>
+        <div class="landscape-canvas-wrap">
+            <canvas id="scatterCanvas" width="900" height="500"></canvas>
+        </div>
+        <div class="landscape-info" id="landscapeInfo"></div>
+    </section>
+
+    <!-- VIEW: INSIGHTS -->
+    <section class="view view--insights" id="viewInsights">
+        <div class="insights-grid" id="insightsGrid">
+            <!-- Rendered by JS -->
+        </div>
+    </section>
+
+</main>
+
+<!-- ========== BRAND DETAIL DRAWER ========== -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<aside class="drawer" id="brandDrawer">
+    <div class="drawer__header">
+        <h2 class="drawer__title" id="drawerTitle"></h2>
+        <button class="drawer__close" id="drawerClose">&times;</button>
+    </div>
+    <div class="drawer__tabs" id="drawerTabs">
+        <button class="drawer__tab active" data-tab="essence">Esencia</button>
+        <button class="drawer__tab" data-tab="audience">Audiencia</button>
+        <button class="drawer__tab" data-tab="product">Producto</button>
+        <button class="drawer__tab" data-tab="style">Estilo</button>
+        <button class="drawer__tab" data-tab="positioning">Posicionamiento</button>
+        <button class="drawer__tab" data-tab="operations">Operaciones</button>
+        <button class="drawer__tab" data-tab="trend_behavior">Tendencia</button>
+        <button class="drawer__tab" data-tab="season_intent">Temporada</button>
+    </div>
+    <div class="drawer__body" id="drawerBody">
+        <!-- Rendered by JS -->
+    </div>
+</aside>
+
+<!-- ========== COMPARE TRAY ========== -->
+<div class="compare-tray" id="compareTray" style="display:none">
+    <div class="compare-tray__brands" id="compareTrayBrands"></div>
+    <button class="btn btn--primary" id="compareTrayBtn">Comparar (<span id="compareTrayCount">0</span>)</button>
+    <button class="btn btn--ghost" id="compareTrayReset">Limpiar</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
