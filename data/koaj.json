@@ -1,0 +1,285 @@
+{
+    "schema_version": "adn_taxonomy_v1",
+    "brand": {
+        "name": "KOAJ",
+        "country": "Colombia",
+        "market": "Colombia",
+        "urls": [
+            "https://www.koaj.co/"
+        ]
+    },
+    "meta": {
+        "data_mode": "scraping_only",
+        "classification_date": "2026-02-06"
+    },
+    "dna": {
+        "essence": {
+            "archetype_primary": "bufon",
+            "archetype_secondary": "explorador",
+            "creative_risk_level": "medio",
+            "novelty_tolerance": 0.65,
+            "emotional_contract": {
+                "must_generate": [
+                    "alegria",
+                    "nostalgia",
+                    "diferenciacion",
+                    "comodidad",
+                    "autenticidad"
+                ],
+                "must_avoid": [
+                    "estatus",
+                    "sofisticacion",
+                    "calma"
+                ]
+            },
+            "confidence": 0.6,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "https://www.koaj.co/info/catalogo-koaj",
+                    "note": "Copy de marca con énfasis en sorprender, últimas tendencias y outfits a medida."
+                },
+                {
+                    "source_type": "lookbook",
+                    "reference": "https://www.koaj.co/especiales/coleccion-cartoon-network/",
+                    "note": "Colección basada en personajes; narrativa de nostalgia/diversión y autoexpresión."
+                },
+                {
+                    "source_type": "lookbook",
+                    "reference": "https://www.koaj.co/especiales/coleccion-mafalda/",
+                    "note": "Colección de personaje; menciona 'aventuras' y 'estilo único'."
+                }
+            ]
+        },
+        "audience": {
+            "gender_focus": "familiar",
+            "age_focus": "teen",
+            "customer_motivation": [
+                "tendencia",
+                "precio",
+                "identidad"
+            ],
+            "confidence": 0.75,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "https://www.koaj.co/",
+                    "note": "Estructura principal orientada a Mujer y Hombre."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "https://www.koaj.co/mujer/ropa/teen/",
+                    "note": "Categoría 'teen' para mujer (ropa para niña/teens)."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "https://www.koaj.co/hombre/ropa/teen/",
+                    "note": "Categoría 'teen' para hombre (ropa para niño/teens)."
+                }
+            ]
+        },
+        "product": {
+            "macro_category_primary": "exterior",
+            "macro_category_secondary": [
+                "calzado",
+                "accesorios",
+                "interior"
+            ],
+            "identity_categories": [
+                "denim",
+                "tops",
+                "bottoms",
+                "outerwear"
+            ],
+            "tactical_categories": [
+                "footwear",
+                "accessories",
+                "bags",
+                "dresses",
+                "home"
+            ],
+            "occasion_focus": [
+                "diario_casual",
+                "deporte"
+            ],
+            "seasonality": "cuatro_estaciones",
+            "confidence": 0.85,
+            "evidence": [
+                {
+                    "source_type": "ecommerce",
+                    "reference": "https://www.koaj.co/info/listado-tiendas",
+                    "note": "Menú/categorías: Jeans, Camisetas, Chaquetas, Tenis, Blusas, Buzos, Vestidos, Pantalones, Accesorios (incluye morrales/gorras/medias/boxer)."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "https://www.koaj.co/mujer/ropa/jeans/",
+                    "note": "Categoría clave (jeans) con variedad de fits y guía de compra."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "https://www.koaj.co/hombre/ropa/jeans/",
+                    "note": "Jeans para hombre como categoría relevante."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "https://www.koaj.co/especiales/coleccion-mafalda/",
+                    "note": "Incluye artículos tipo vaso/botella (lifestyle) además de ropa."
+                }
+            ]
+        },
+        "style": {
+            "style_primary": "streetwear",
+            "style_secondary": [
+                "contemporaneo",
+                "preppy",
+                "athleisure"
+            ],
+            "fit_preference": "mixed",
+            "silhouette_signatures": [
+                "boxy",
+                "straight",
+                "flared",
+                "cropped",
+                "low_waist"
+            ],
+            "color_palette_stable": [
+                "neutros",
+                "oscuros",
+                "tierra"
+            ],
+            "color_palette_experimental": [
+                "vivos",
+                "pasteles"
+            ],
+            "print_intensity": "medium",
+            "branding_visibility": "moderado",
+            "material_focus": [
+                "denim",
+                "algodon",
+                "mezcla",
+                "sinteticos"
+            ],
+            "complexity_level": "media",
+            "confidence": 0.75,
+            "evidence": [
+                {
+                    "source_type": "ecommerce",
+                    "reference": "https://www.koaj.co/info/listado-tiendas",
+                    "note": "Etiquetas/estilos: Oversize, Premium Basics, College, Personajes; accesorios y tenis."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "https://www.koaj.co/mujer/ropa/jeans/",
+                    "note": "Describe fits (baggy/90s/boyfriend) y muestra tiros (alto/medio/bajo) y tonos denim/neutros."
+                },
+                {
+                    "source_type": "lookbook",
+                    "reference": "https://www.koaj.co/especiales/coleccion-cartoon-network/",
+                    "note": "Colecciones gráficas de personajes (estampados/graphics relevantes)."
+                }
+            ]
+        },
+        "positioning": {
+            "price_segment": "masivo",
+            "value_driver": [
+                "precio",
+                "diseno"
+            ],
+            "decision_type": "impulso",
+            "elasticity": "alta",
+            "promo_dependency": "alta",
+            "competitive_posture": "precio",
+            "price_zone": {
+                "currency": "COP",
+                "p25": 27900,
+                "p50": 89900,
+                "p75": 129900
+            },
+            "confidence": 0.8,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "https://www.koaj.co/",
+                    "note": "Promociones visibles en home (ej. hasta 40% OFF en jeans con vigencias específicas)."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "https://www.koaj.co/mujer/ropa/jeans/",
+                    "note": "Jeans frecuentemente listados alrededor de $89.900–$119.900 y con descuentos."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "https://www.koaj.co/especiales/super-sale/",
+                    "note": "Rebajas con rango amplio de precios (desde medias económicas hasta chaquetas más altas)."
+                },
+                {
+                    "source_type": "marketplace",
+                    "reference": "https://www.falabella.com.co/falabella-co/category/cat11630941/Ropa-infantil?f.product.brandName=koaj",
+                    "note": "Presencia en retailer/departamental (Falabella) con productos KOAJ y descuentos."
+                }
+            ]
+        },
+        "operations": {
+            "business_model": "dtc",
+            "channels": [
+                "ecommerce_propietario",
+                "tiendas_propias",
+                "marketplaces",
+                "departamentales",
+                "social_commerce"
+            ],
+            "geography": "regional",
+            "manufacturing": "mixto",
+            "confidence": 0.85,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "https://www.koaj.co/info/listado-tiendas",
+                    "note": "Listado de tiendas físicas por múltiples ciudades (Colombia)."
+                },
+                {
+                    "source_type": "brand_site",
+                    "reference": "https://www.koaj.co/info/sobre-permoda",
+                    "note": "Permoda: presencia regional (Colombia, México, Costa Rica, Ecuador, Panamá) y operaciones en Asia; mezcla de producción local e internacional."
+                },
+                {
+                    "source_type": "marketplace",
+                    "reference": "https://www.falabella.com.co/falabella-co/category/cat11630941/Ropa-infantil?f.product.brandName=koaj",
+                    "note": "Venta a través de canal departamental/marketplace."
+                },
+                {
+                    "source_type": "social",
+                    "reference": "https://wa.link/njr6j3",
+                    "note": "Canal de contacto/compra por WhatsApp (social commerce)."
+                }
+            ]
+        },
+        "trend_behavior": {
+            "trend_adoption_type": "mid_adopter",
+            "innovation_mix_hint": {
+                "core": 0.55,
+                "evolution": 0.35,
+                "exploration": 0.1
+            },
+            "confidence": 0.65,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "https://www.koaj.co/info/catalogo-koaj",
+                    "note": "Copy enfatiza diseño bajo 'las últimas tendencias'."
+                },
+                {
+                    "source_type": "brand_site",
+                    "reference": "https://www.koaj.co/info/sobre-permoda",
+                    "note": "Permoda indica enfoque en interpretar moda global, calidad/precio y actualidad."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "https://www.koaj.co/tendencias/jeans-mujer-hombre-coleccion/",
+                    "note": "Sección 'Tendencias' con surtido amplio y actualización frecuente."
+                }
+            ]
+        }
+    },
+    "notes": "Clasificación basada únicamente en evidencia pública (sitio/e-commerce, páginas informativas y marketplaces) al 2026-02-06."
+}

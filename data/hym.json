@@ -1,0 +1,260 @@
+{
+    "schema_version": "adn_taxonomy_v1",
+    "brand": {
+        "name": "H&M",
+        "brand_id": "hm_co",
+        "country": "Colombia",
+        "market": "CO",
+        "urls": [
+            "[https://co.hm.com/](https://co.hm.com/)"
+        ]
+    },
+    "meta": {
+        "data_mode": "scraping_only",
+        "classification_date": "2026-02-06"
+    },
+    "dna": {
+        "essence": {
+            "archetype_primary": "persona_corriente",
+            "archetype_secondary": "creador",
+            "creative_risk_level": "medio",
+            "novelty_tolerance": 0.7,
+            "emotional_contract": {
+                "must_generate": [
+                    "comodidad",
+                    "diferenciacion",
+                    "confianza",
+                    "alegria",
+                    "autenticidad"
+                ],
+                "must_avoid": [
+                    "estatus",
+                    "rebeldia",
+                    "nostalgia"
+                ]
+            },
+            "confidence": 0.65,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://co.hm.com/](https://co.hm.com/)",
+                    "note": "Homepage posiciona 'moda y calidad al mejor precio' y muestra oferta amplia (Mujer/Hombre/Niños). ([co.hm.com][1])"
+                },
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://hmgroup.com/about-us/business-idea/](https://hmgroup.com/about-us/business-idea/)",
+                    "note": "Declaración corporativa enfatiza inclusión/experiencia omnicanal (marco de marca global). ([H&M Group][2])"
+                }
+            ]
+        },
+        "audience": {
+            "gender_focus": "familiar",
+            "age_focus": "all",
+            "customer_motivation": [
+                "tendencia",
+                "precio",
+                "identidad"
+            ],
+            "confidence": 0.9,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://co.hm.com/](https://co.hm.com/)",
+                    "note": "La página principal describe moda para Mujer, Hombre, Bebé y Niños. ([co.hm.com][1])"
+                }
+            ]
+        },
+        "product": {
+            "macro_category_primary": "exterior",
+            "macro_category_secondary": [
+                "interior",
+                "calzado",
+                "accesorios"
+            ],
+            "identity_categories": [
+                "tops",
+                "bottoms",
+                "denim",
+                "dresses",
+                "outerwear"
+            ],
+            "tactical_categories": [
+                "underwear_lingerie",
+                "activewear",
+                "sleepwear",
+                "footwear",
+                "accessories"
+            ],
+            "occasion_focus": [
+                "diario_casual",
+                "trabajo",
+                "noche_fiesta"
+            ],
+            "seasonality": "cuatro_estaciones",
+            "confidence": 0.9,
+            "evidence": [
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://co.hm.com/mujer](https://co.hm.com/mujer)",
+                    "note": "Se listan categorías como vestidos, zapatos, camisas, chaquetas, etc. ([co.hm.com][3])"
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://co.hm.com/hombre/ver-todo](https://co.hm.com/hombre/ver-todo)",
+                    "note": "Amplio mix: camisetas, camisas, pantalones, jeans, abrigos; aparecen prendas de invierno. ([co.hm.com][4])"
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://co.hm.com/sale](https://co.hm.com/sale)",
+                    "note": "SALE incluye interior (sostenes, pantis) y accesorios/medias con descuentos. ([co.hm.com][5])"
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://co.hm.com/sport/novedades/mujer](https://co.hm.com/sport/novedades/mujer)",
+                    "note": "Sección sport (H&M Move) sugiere activewear como línea estable. ([co.hm.com][6])"
+                }
+            ]
+        },
+        "style": {
+            "style_primary": "contemporaneo",
+            "style_secondary": [
+                "minimalista",
+                "streetwear",
+                "romantico"
+            ],
+            "fit_preference": "mixed",
+            "silhouette_signatures": [
+                "high_waist",
+                "cropped",
+                "straight",
+                "boxy",
+                "layering"
+            ],
+            "color_palette_stable": [
+                "neutros"
+            ],
+            "print_intensity": "medium",
+            "branding_visibility": "sutil",
+            "material_focus": [
+                "algodon",
+                "denim",
+                "sinteticos",
+                "tecnicos",
+                "mezcla"
+            ],
+            "complexity_level": "media",
+            "confidence": 0.75,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://co.hm.com/](https://co.hm.com/)",
+                    "note": "La home destaca 'Neutros clásicos' (paleta base) y muestra categorías de básicos. ([co.hm.com][1])"
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://co.hm.com/mujer/ver-todo](https://co.hm.com/mujer/ver-todo)",
+                    "note": "Listado incluye 'Wide High Jeans', 'Blusa oversize', blazers y básicos (siluetas high waist/boxy/straight). ([co.hm.com][7])"
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://co.hm.com/hombre/camisetas](https://co.hm.com/hombre/camisetas)",
+                    "note": "Oferta incluye camisetas lisas y estampadas; menciona algodón como material. ([co.hm.com][8])"
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://co.hm.com/hombre/ver-todo](https://co.hm.com/hombre/ver-todo)",
+                    "note": "Aparecen productos con DryMove™/COOLMAX® (materiales técnicos). ([co.hm.com][4])"
+                }
+            ]
+        },
+        "positioning": {
+            "price_segment": "masivo",
+            "value_driver": [
+                "precio",
+                "diseno"
+            ],
+            "decision_type": "impulso",
+            "elasticity": "alta",
+            "promo_dependency": "media",
+            "competitive_posture": "precio",
+            "price_zone": {
+                "currency": "COP",
+                "p25": 59900,
+                "p50": 89900,
+                "p75": 139900
+            },
+            "confidence": 0.85,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://co.hm.com/](https://co.hm.com/)",
+                    "note": "Propuesta explícita de 'moda y calidad al mejor precio' (posicionamiento accesible). ([co.hm.com][1])"
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://co.hm.com/hombre/camisetas](https://co.hm.com/hombre/camisetas)",
+                    "note": "Precios observables en camisetas para hombre (p.ej. $24.900–$109.900). ([co.hm.com][8])"
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://co.hm.com/mujer/ver-todo](https://co.hm.com/mujer/ver-todo)",
+                    "note": "Precios observables en prendas mujer (jeans ~$109.900; blazer ~$139.900–$179.900). ([co.hm.com][7])"
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://co.hm.com/sale](https://co.hm.com/sale)",
+                    "note": "Página de ofertas muestra descuentos frecuentes (evidencia de promo activa). ([co.hm.com][5])"
+                }
+            ]
+        },
+        "operations": {
+            "business_model": "dtc",
+            "channels": [
+                "ecommerce_propietario",
+                "tiendas_propias"
+            ],
+            "geography": "global",
+            "manufacturing": "importado",
+            "confidence": 0.9,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://co.hm.com/servicio-al-cliente/comprar-en-hm](https://co.hm.com/servicio-al-cliente/comprar-en-hm)",
+                    "note": "Sección de ayuda indica compras en línea y en tienda (estructura DTC omnicanal). ([co.hm.com][9])"
+                },
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://co.hm.com/servicio-al-cliente/comprar-en-hm/store-locator](https://co.hm.com/servicio-al-cliente/comprar-en-hm/store-locator)",
+                    "note": "Localizador de tiendas confirma presencia de tiendas físicas. ([co.hm.com][10])"
+                },
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://co.hm.com/servicio-al-cliente/comprar-en-hm/compra-en-tiendas](https://co.hm.com/servicio-al-cliente/comprar-en-hm/compra-en-tiendas)",
+                    "note": "Página de compra en tiendas refuerza canal retail propio. ([co.hm.com][11])"
+                }
+            ]
+        },
+        "trend_behavior": {
+            "trend_adoption_type": "mid_adopter",
+            "innovation_mix_hint": {
+                "core": 0.55,
+                "evolution": 0.35,
+                "exploration": 0.1
+            },
+            "confidence": 0.75,
+            "evidence": [
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://co.hm.com/mujer/ver-todo](https://co.hm.com/mujer/ver-todo)",
+                    "note": "Copy de categoría: 'Desde básicos esenciales hasta las últimas tendencias' (mix core + trend). ([co.hm.com][7])"
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://co.hm.com/sport/novedades/mujer](https://co.hm.com/sport/novedades/mujer)",
+                    "note": "Sección 'Novedades deportivas' sugiere rotación de tendencias por cápsulas. ([co.hm.com][6])"
+                }
+            ]
+        }
+    },
+    "notes": "Clasificación basada en señales públicas del e-commerce H&M Colombia (co.hm.com). Esencia/arquetipos y algunos rasgos de estilo son inferidos; no se usó información interna."
+}

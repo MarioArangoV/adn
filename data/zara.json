@@ -1,0 +1,249 @@
+{
+    "schema_version": "adn_taxonomy_v1",
+    "brand": {
+        "name": "ZARA",
+        "country": "Spain",
+        "market": "Colombia",
+        "urls": [
+            "[https://www.zara.com/co/](https://www.zara.com/co/)"
+        ]
+    },
+    "meta": {
+        "data_mode": "scraping_only",
+        "classification_date": "2026-02-06"
+    },
+    "dna": {
+        "essence": {
+            "archetype_primary": "creador",
+            "archetype_secondary": "persona_corriente",
+            "creative_risk_level": "medio",
+            "novelty_tolerance": 0.75,
+            "emotional_contract": {
+                "must_generate": [
+                    "diferenciacion",
+                    "sofisticacion",
+                    "confianza",
+                    "estatus"
+                ],
+                "must_avoid": [
+                    "rebeldia",
+                    "nostalgia"
+                ]
+            },
+            "confidence": 0.55,
+            "evidence": [
+                {
+                    "source_type": "inferred_visual",
+                    "reference": "[https://www.zara.com/co/es/mujer-nuevo-l1180.html](https://www.zara.com/co/es/mujer-nuevo-l1180.html)",
+                    "note": "Presentación editorial (secciones 'LOOK') y mezcla de básicos + cápsulas (p. ej., ZW COLLECTION / LIMITED EDITION) sugieren foco en diseño y novedad sin ruptura extrema."
+                },
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.zara.com/co/](https://www.zara.com/co/)",
+                    "note": "Home del mercado Colombia; posicionamiento general como moda de tendencias con categorías completas."
+                }
+            ]
+        },
+        "audience": {
+            "gender_focus": "familiar",
+            "age_focus": "young_adult",
+            "customer_motivation": [
+                "tendencia",
+                "identidad",
+                "ocasion"
+            ],
+            "confidence": 0.85,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.zara.com/co/](https://www.zara.com/co/)",
+                    "note": "Navegación y oferta para mujer, hombre y niños; presencia de Beauty/Perfumes."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.zara.com/co/es/mujer-nuevo-l1180.html](https://www.zara.com/co/es/mujer-nuevo-l1180.html)",
+                    "note": "Menú con MUJER/HOMBRE/NIÑOS/BEAUTY y rangos de edad para niños/bebé dentro del sitio."
+                }
+            ]
+        },
+        "product": {
+            "macro_category_primary": "exterior",
+            "macro_category_secondary": [
+                "calzado",
+                "bolsos",
+                "accesorios"
+            ],
+            "identity_categories": [
+                "tops",
+                "bottoms",
+                "dresses",
+                "outerwear",
+                "tailoring"
+            ],
+            "tactical_categories": [
+                "knitwear",
+                "denim",
+                "accessories",
+                "bags",
+                "beauty"
+            ],
+            "occasion_focus": [
+                "diario_casual",
+                "trabajo",
+                "noche_fiesta"
+            ],
+            "seasonality": "cuatro_estaciones",
+            "confidence": 0.9,
+            "evidence": [
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.zara.com/co/es/mujer-nuevo-l1180.html](https://www.zara.com/co/es/mujer-nuevo-l1180.html)",
+                    "note": "Taxonomía de categorías en 'Colección' (cazadoras, abrigos, punto, camisetas, jeans, pantalones, vestidos) y 'Zapatos | Accesorios' (zapatos, bolsos, accesorios/bisutería), además de Perfumes."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.zara.com/co/es/mujer-camisetas-l1362.html](https://www.zara.com/co/es/mujer-camisetas-l1362.html)",
+                    "note": "Categoría de camisetas (subcategorías como básicos/oversize/crop; precios visibles)."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.zara.com/co/es/mujer-pantalones-l1335.html](https://www.zara.com/co/es/mujer-pantalones-l1335.html)",
+                    "note": "Categoría de pantalones (variedad de cortes; precios visibles)."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.zara.com/co/es/mujer-prendas-exterior-l1184.html](https://www.zara.com/co/es/mujer-prendas-exterior-l1184.html)",
+                    "note": "Categoría de abrigos y prendas exteriores (variedad de estilos; precios visibles)."
+                }
+            ]
+        },
+        "style": {
+            "style_primary": "contemporaneo",
+            "style_secondary": [
+                "minimalista",
+                "formal_tailoring",
+                "streetwear"
+            ],
+            "fit_preference": "mixed",
+            "silhouette_signatures": [
+                "straight",
+                "boxy",
+                "cropped",
+                "high_waist",
+                "layering"
+            ],
+            "color_palette_stable": [
+                "neutros",
+                "oscuros",
+                "tierra"
+            ],
+            "print_intensity": "low",
+            "branding_visibility": "sutil",
+            "material_focus": [
+                "algodon",
+                "denim",
+                "sinteticos",
+                "cuero",
+                "mezcla"
+            ],
+            "complexity_level": "media",
+            "confidence": 0.8,
+            "evidence": [
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.zara.com/co/es/mujer-camisetas-l1362.html](https://www.zara.com/co/es/mujer-camisetas-l1362.html)",
+                    "note": "Copy de categoría enfatiza detalles sofisticados sobre ornamentación excesiva y destaca paletas neutras/tonos tierra; variedad de fits (oversize/crop) y construcción (algodón/SUPIMA®)."
+                },
+                {
+                    "source_type": "inferred_visual",
+                    "reference": "[https://www.zara.com/co/es/mujer-nuevo-l1180.html](https://www.zara.com/co/es/mujer-nuevo-l1180.html)",
+                    "note": "Mix de sastrería, básicos y piezas tendencia en 'THE NEW' sugiere estética contemporánea con cápsulas formales y street."
+                }
+            ]
+        },
+        "positioning": {
+            "price_segment": "medio",
+            "value_driver": [
+                "diseno",
+                "precio"
+            ],
+            "decision_type": "impulso",
+            "elasticity": "media",
+            "promo_dependency": "media",
+            "competitive_posture": "diferenciacion",
+            "price_zone": {
+                "currency": "COP",
+                "p25": 109900,
+                "p50": 209450,
+                "p75": 376500
+            },
+            "confidence": 0.85,
+            "evidence": [
+                {
+                    "source_type": "inferred_price",
+                    "reference": "[https://www.zara.com/co/es/mujer-camisetas-l1362.html](https://www.zara.com/co/es/mujer-camisetas-l1362.html)",
+                    "note": "Muestreo de precios en camisetas: ~89.900–129.900 COP (ejemplos visibles en listado)."
+                },
+                {
+                    "source_type": "inferred_price",
+                    "reference": "[https://www.zara.com/co/es/mujer-pantalones-l1335.html](https://www.zara.com/co/es/mujer-pantalones-l1335.html)",
+                    "note": "Muestreo de precios en pantalones: ~139.900–699.000+ COP (incluye materiales premium como piel)."
+                },
+                {
+                    "source_type": "inferred_price",
+                    "reference": "[https://www.zara.com/co/es/mujer-prendas-exterior-l1184.html](https://www.zara.com/co/es/mujer-prendas-exterior-l1184.html)",
+                    "note": "Muestreo de precios en abrigos: ~259.000–1.099.000+ COP."
+                },
+                {
+                    "source_type": "inferred_price",
+                    "reference": "[https://www.zara.com/co/es/mujer-nuevo-l1180.html](https://www.zara.com/co/es/mujer-nuevo-l1180.html)",
+                    "note": "En 'THE NEW' aparecen precios de prendas y calzado (p. ej., sandalias/mocasines 209.000–359.000 COP; vestidos/chaquetas 559.000–899.000 COP). Percentiles calculados sobre muestra combinada de varias categorías."
+                }
+            ]
+        },
+        "operations": {
+            "business_model": "dtc",
+            "channels": [
+                "ecommerce_propietario",
+                "tiendas_propias"
+            ],
+            "geography": "global",
+            "manufacturing": "mixto",
+            "confidence": 0.8,
+            "evidence": [
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.zara.com/co/](https://www.zara.com/co/)",
+                    "note": "Presencia de e-commerce oficial por país y enlaces a 'TIENDAS' (store locator) y descarga de app."
+                },
+                {
+                    "source_type": "brand_site",
+                    "reference": "[https://www.zara.com/co/](https://www.zara.com/co/)",
+                    "note": "Pie de página indica entidad local operando en Colombia (Texmoda S.A.S.) y condiciones de compra del mercado."
+                }
+            ]
+        },
+        "trend_behavior": {
+            "trend_adoption_type": "early_adopter",
+            "innovation_mix_hint": {
+                "core": 0.6,
+                "evolution": 0.3,
+                "exploration": 0.1
+            },
+            "confidence": 0.75,
+            "evidence": [
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.zara.com/co/es/mujer-nuevo-l1180.html](https://www.zara.com/co/es/mujer-nuevo-l1180.html)",
+                    "note": "Sección 'NOVEDADES'/'THE NEW' con alta rotación de artículos y cápsulas (SPECIAL EDITION / LIMITED EDITION), señal de adopción rápida de tendencias."
+                },
+                {
+                    "source_type": "ecommerce",
+                    "reference": "[https://www.zara.com/co/](https://www.zara.com/co/)",
+                    "note": "Home del e-commerce orientada a 'nueva colección' y editoriales de temporada."
+                }
+            ]
+        }
+    },
+    "notes": "Clasificación basada únicamente en señales públicas del e-commerce de ZARA Colombia (scraping_only) y muestreo de precios/categorías; no incluye datos internos (ventas, márgenes, rotación SKU, estrategia por temporada)."
+}

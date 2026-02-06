@@ -1,0 +1,235 @@
+{
+  "schema_version": "adn_taxonomy_v1",
+  "brand": {
+    "name": "Tennis",
+    "brand_id": "tennis_co",
+    "country": "Colombia",
+    "market": "Colombia",
+    "urls": ["https://www.tennis.com.co/"]
+  },
+  "meta": {
+    "data_mode": "scraping_only",
+    "classification_date": "2026-02-06"
+  },
+  "dna": {
+    "essence": {
+      "archetype_primary": "persona_corriente",
+      "archetype_secondary": "explorador",
+      "creative_risk_level": "medio",
+      "novelty_tolerance": 0.6,
+      "emotional_contract": {
+        "must_generate": ["comodidad", "autenticidad", "confianza", "alegria", "diferenciacion"],
+        "must_avoid": ["desconocido"]
+      },
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.tennis.com.co/",
+          "note": "Se presenta como marca colombiana con estilo de vida joven, fresco y urbano; oferta amplia (ropa, zapatos, accesorios, belleza) y foco en moda."
+        },
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.tennis.com.co/catalogos-de-ropa",
+          "note": "Discurso de identidad personal + comodidad/diseño; menciona accesible y sostenible."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.tennis.com.co/ropa-hombre/ropa-interior",
+          "note": "Ropa interior comunicada desde comodidad/confianza/seguridad; refuerza contrato emocional funcional."
+        }
+      ]
+    },
+    "audience": {
+      "gender_focus": "familiar",
+      "age_focus": "all",
+      "customer_motivation": ["tendencia", "comodidad", "precio"],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.tennis.com.co/",
+          "note": "Declara oferta para mujer, hombre, niña y niño."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.tennis.com.co/basicos",
+          "note": "Básicos con opciones explícitas para adultos y niños; apunta a audiencia amplia."
+        },
+        {
+          "source_type": "press",
+          "reference": "https://mayorca.com.co/tiendas/tennis-mayorca-etapa-2/",
+          "note": "Describe la marca como joven/fresca/urbana y menciona ocasiones (trabajo, universidad, fiesta, etc.), reforzando amplitud de uso y público."
+        }
+      ]
+    },
+    "product": {
+      "macro_category_primary": "exterior",
+      "macro_category_secondary": ["calzado", "accesorios", "belleza_grooming"],
+      "identity_categories": ["denim", "tops", "bottoms", "outerwear", "accessories"],
+      "tactical_categories": ["dresses", "swimwear", "underwear_lingerie", "footwear", "beauty"],
+      "occasion_focus": ["diario_casual", "trabajo", "playa"],
+      "seasonality": "cuatro_estaciones",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.tennis.com.co/",
+          "note": "Oferta explícita de ropa, zapatos, accesorios y productos de belleza."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.tennis.com.co/basicos",
+          "note": "Énfasis en básicos y denim/jeans con múltiples fits; sugiere denim como pilar."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.tennis.com.co/ropa-hombre/pantalonetas-de-bano",
+          "note": "Categoría de trajes de baño (playa/piscina) con estampados; soporta swimwear y ocasión playa."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.tennis.com.co/ropa-hombre/ropa-interior",
+          "note": "Categoría de ropa interior (interior) disponible en el catálogo."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.tennis.com.co/abrigo-azul-abr-abr-0001450/p",
+          "note": "Producto de abrigo (outerwear) sugiere cobertura para clima más frío/temporadas, además de categorías cálidas (baño)."
+        }
+      ]
+    },
+    "style": {
+      "style_primary": "contemporaneo",
+      "style_secondary": ["streetwear", "resort", "minimalista"],
+      "fit_preference": "mixed",
+      "silhouette_signatures": ["cropped", "straight", "flared", "high_waist", "boxy"],
+      "color_palette_stable": ["neutros", "oscuros", "tierra"],
+      "color_palette_experimental": ["vivos", "pasteles", "alto_contraste"],
+      "print_intensity": "medium",
+      "branding_visibility": "sutil",
+      "material_focus": ["algodon", "denim", "lino", "cuero", "mezcla"],
+      "complexity_level": "media",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.tennis.com.co/",
+          "note": "Posiciona el estilo como joven, fresco y urbano (código urbano/street)."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.tennis.com.co/basicos",
+          "note": "Básicos en colores neutros y cortes clásicos; menciona múltiples fits de jeans (recto, wide leg tipo A, loose, skinny, etc.)."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.tennis.com.co/ropa-mujer/vestidos",
+          "note": "Vestidos y variedad de siluetas; presencia de estampados y colorido de temporada (apoya print_intensity medio)."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.tennis.com.co/ropa-hombre/pantalonetas-de-bano",
+          "note": "Estampados marinos/playeros/abstractos y colores en tendencia; refuerza paleta experimental y resort."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.tennis.com.co/correa-cafe-acc-cor-0001341/p",
+          "note": "Accesorio con referencia explícita a cuero y enfoque en acabados/texturas; soporta material_focus (cuero/mezcla)."
+        }
+      ]
+    },
+    "positioning": {
+      "price_segment": "medio",
+      "value_driver": ["diseno", "precio"],
+      "decision_type": "impulso",
+      "elasticity": "alta",
+      "promo_dependency": "alta",
+      "competitive_posture": "diferenciacion",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.tennis.com.co/",
+          "note": "Promociones visibles (p. ej., SUPER SALE con descuentos) y catálogo amplio; sugiere dinámica promo frecuente."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.tennis.com.co/abrigo-azul-abr-abr-0001450/p",
+          "note": "Ejemplo de precio en outerwear (399.900 COP) y comunicación de compra online; apoya segmento medio."
+        },
+        {
+          "source_type": "marketplace",
+          "reference": "https://www.falabella.com.co/falabella-co/brand/TENNIS",
+          "note": "Rango de precios y descuentos fuertes (-50%/-54%) en un retailer masivo; refuerza elasticidad alta y dependencia promo."
+        },
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.tennis.com.co/catalogos-de-ropa",
+          "note": "Mensajes de diseño + comodidad y mención de accesible; apoya value_driver (diseño/precio)."
+        }
+      ]
+    },
+    "operations": {
+      "business_model": "multibrand_retailer",
+      "channels": ["ecommerce_propietario", "tiendas_propias", "marketplaces", "departamentales"],
+      "geography": "local",
+      "manufacturing": "desconocido",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.tennis.com.co/",
+          "note": "E-commerce propio con catálogo y checkout; navegación por categorías/marcas."
+        },
+        {
+          "source_type": "press",
+          "reference": "https://mayorca.com.co/tiendas/tennis-mayorca-etapa-2/",
+          "note": "Evidencia de tienda física (punto en centro comercial) con contacto/ubicación."
+        },
+        {
+          "source_type": "marketplace",
+          "reference": "https://www.dafiti.com.co/tennis/",
+          "note": "Presencia en marketplace (Dafiti) con catálogo de la marca."
+        },
+        {
+          "source_type": "marketplace",
+          "reference": "https://www.falabella.com.co/falabella-co/brand/TENNIS",
+          "note": "Presencia en departamental/e-commerce masivo (Falabella) bajo la marca TENNIS."
+        },
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.tennis.com.co/koper",
+          "note": "Sección Tennis Market asociada a otras marcas (página de categoría/brand hub), consistente con operación multi-marca."
+        }
+      ]
+    },
+    "trend_behavior": {
+      "trend_adoption_type": "mid_adopter",
+      "innovation_mix_hint": {
+        "core": 0.65,
+        "evolution": 0.25,
+        "exploration": 0.1
+      },
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.tennis.com.co/mujer/nuevo",
+          "note": "Nueva colección con mensaje explícito de 'marcar tendencia esta temporada' (adopción activa de tendencias)."
+        },
+        {
+          "source_type": "brand_site",
+          "reference": "https://www.tennis.com.co/t/ropa-urbana",
+          "note": "Lenguaje de moda urbana + tendencia y comodidad; sugiere adopción de tendencias mainstream (no avant-garde)."
+        },
+        {
+          "source_type": "ecommerce",
+          "reference": "https://www.tennis.com.co/basicos",
+          "note": "Convivencia entre core (básicos/colores neutros/cortes clásicos) y fits 'trendy' de denim; apoya mix core+evolución."
+        }
+      ]
+    }
+  },
+  "notes": "Clasificación basada en señales públicas del e-commerce (scraping_only). Tennis opera con oferta amplia (familia) y código urbano/casual; denim y básicos aparecen como pilares. Se observa alta actividad promocional y presencia en marketplaces/retailers."
+}
